@@ -1,0 +1,37 @@
+# Specifies that the gitignore file is specifically meant for Unity projects
+# This file should be placed at the root of your Unity project directory
+
+# Ignore all files and directories in the Library folder
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Aa]ssets/AssetStoreTools*
+[Aa]ssets/Plugins/Editor/JetBrains*
+[Pp]ackages/manifest.json.meta
+[Pp]ackages/packages-lock.json.meta
+
+# Auto-generated Unity files
+/*.csproj
+/*.pidb
+/*.sln
+/*.suo
+/*.user
+/*.userprefs
+/*.log
+/*.apk
+/*.unitypackage
+
+# Visual Studio Code generated files
+.vscode/
+
+# macOS specific files
+.DS_Store
+*.swp
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
